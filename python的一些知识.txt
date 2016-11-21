@@ -1,8 +1,14 @@
 # -*- coding: utf-8 -*-
-�»���(underscore) �ַ�
-1.ת���ַ�
-2.ģ��(modules)
-3.��������(argument variable
-4.variableb����
-5.python -m pydoc raw_input ���Ҷ���
-6.default Ĭ��
+下划线(underscore) 字符
+1.转义字符
+2.模组(modules)
+3.参数变量(argument variable）
+4.variableb变量
+5.python -m pydoc 查找东西
+6.default 默认
+7.查询类型，type，可以print type（object）
+8.append与extend的区别
+   append（）接受一个对象参数，把对象添加到列表的尾部
+   例如：[1,2].append([1,2,3]) 结果为[1,2,[1,2,3]]
+   extend()接受的是一个列表参数 
+   例如：[1,2].extend[[1,2,3]] 结果为[1,2,3,1,2]

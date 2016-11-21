@@ -4,6 +4,7 @@ def fab(n):      #斐波那契数列，用递归思想
    n2=1
    n3=1
    
+	
    if n<1:
 	 print('输入出错！')    
 	 return -1

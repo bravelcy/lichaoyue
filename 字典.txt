@@ -108,6 +108,7 @@ str[:6]
 字符串包含判断操作符：in，not in  
 "He" in str  
 "she" not in str  
+
   
 string模块，还提供了很多方法，如  
 S.find(substring, [start [,end]]) #可指范围查找子串，返回索引值，否则返回-1  
