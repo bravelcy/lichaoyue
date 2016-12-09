@@ -12,4 +12,4 @@ def search(sequence,number,lower=0,upper=None):    # search() takes at least 3 a
 	      return search(sequence,number,lower,middle)
 seq=[34,67,8,123,4,100.95]
 seq.sort()
-print search(seq,2)                                   #2不在所给列表里面    错误为AssertionError，断言失败
+print search(seq,2)                                     #2不在所给列表里面    错误为AssertionError，断言失败
