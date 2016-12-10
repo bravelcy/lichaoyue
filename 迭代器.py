@@ -14,6 +14,6 @@ for f in fibs:                           #fibs是迭代器中生成的一个列�
     if f<1000:
         print f               
     else: 
-        break
+        break 
 
 #借用一个人说的，非要类比的话，赌场发牌的荷官算是一个比较接近的例子。本来你需要自己去处理一堆牌（一个 collection），现在你有了这个对象，只要不断问他要“下一张”，他要是有自然会给你，没有就结束（StopIteration）
