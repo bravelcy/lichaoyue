@@ -1,5 +1,9 @@
-python笔记记录
+#python笔记记录
 ===
-1.主要学习python<br>
-2.希望大家能多多交流，邮箱949257809@qq.com<br>
-3.博客地址http://www.cnblogs.com/lichaoyue/
+1.主要学习python
+2.希望大家能多多交流，邮箱`949257809@qq.com`<br>
+3.博客地址`http://www.cnblogs.com/lichaoyue/`
+
+
+#2016.12.14 python基础知识
+2016年9月到11月底差不多把python基础教程（第2版.修订版）基础部分看完，对于基础部分大体有个了解，现在主要是方向不明确，不知道往哪个方向发展
