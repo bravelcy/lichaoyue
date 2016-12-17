@@ -5,8 +5,9 @@ def search(sequence,number,lower=0,upper=None):    # search() takes at least 3 a
 	   assert number==sequence[upper]
 	   return upper
     else:
-	   middle=(lower+upper)//2                       #python 2.x里面，// 是地板除，/如果有一个数是浮点数就得到小数，如果两个都是整数也是地板除。
-	   if number>sequence[middle]:
+	   middle=(lower+upper)//2                       #另外一种除法是采用x//y的形式，那么这里采用的是所谓floor除法，即得到不大于结果的最大整数值，这个运算时与操作数无关的。比如2//3的结果是0，-2//3的结果是-1，-2.0//3的结果是-1.0。         
+	      return search(sequence,number,middle+1,upper)
+	   if number>sequence[middle]:                       
 	      return search(sequence,number,middle+1,upper)
 	   else:
 	      return search(sequence,number,lower,middle)
